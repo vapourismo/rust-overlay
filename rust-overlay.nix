@@ -433,6 +433,7 @@ in {
       inherit fromRustupToolchain fromRustupToolchainFile;
       inherit selectLatestNightlyWith;
       inherit fromRustcRev;
+      inherit toolchainFromManifest;
     };
 
   # All attributes below are for compatiblity with mozilla overlay.
